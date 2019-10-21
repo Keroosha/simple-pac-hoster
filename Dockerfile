@@ -1,7 +1,7 @@
 FROM node
 
 WORKDIR /opt/app
-COPY index.js ./index.js
+COPY src/* ./
 
 EXPOSE 911
 CMD node index.js
